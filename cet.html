@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1">
+<style>
+input[type="radio"] {
+	margin:5px;
+    font: 3rem 'Fira Sans', sans-serif;
+	   -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+}
+input[type="submit"],label {
+    font: 16px 'Fira Sans', sans-serif;
+}
+td {
+padding:5px;
+}
+.upper{
+    position: fixed;
+    top: 0px;
+	background: #c9c9c9;   
+    display: block;
+
+}
+</style>
+</head>
+<body>
+
+<h2 style="color:green;text-align:center;">Experimental examination</h2>
+<h4>Note:These questions is to help me explain you how to use this web page. Your feedback and suggestions are welcome.</h4>
+<h3 style="color:blue;"><b>Four  alternatives  are  given  for  each  of  the  following  questions  /  incomplete  statements. Only one of them is correct or most appropriate. Choose the correct alternative and click on submit.  
+</b></h3>
+<button class="upper" id="clock" onclick="starttimer();">Start exam</button>
+
+
+<div>
+	<h3 style="color:red;">1. 1.0 g of Mg is burnt with 0.28 g of O<sub>2</sub> in a closed vessel. Which reactant is left in excess and</h3>
+how much?
+<table>
+ <tr><td><input type="radio" name="q1" value="A">    </td><td><label>(A) Mg, 5.8 g 
+ <tr><td><input type="radio" name="q1" value="B">    </td><td><label>(B) Mg, 0.58 g 
+ <tr><td><input type="radio" name="q1" value="C">    </td><td><label>(C) O2, 0.24 g 
+ <tr><td><input type="radio" name="q1" value="D">    </td><td><label>(D) O2, 2.4 g
+</table>
+<input disabled id="qs1" type="submit" onclick="compute('1', 2);"> <div style="background-color:lightblue;text-align:center;" id="a1">See Result here</div>
+</div>
+
+<div>
+	<h3 style="color:red;">2. The orbital nearest to the nucleus is</h3>
+	<table>
+ <tr><td><input type="radio" name="q2" value="A">    </td><td><label>(A) 4f 
+ <tr><td><input type="radio" name="q2" value="B">    </td><td><label>(B) 5d 
+ <tr><td><input type="radio" name="q2" value="C">    </td><td><label>(C) 4s 
+ <tr><td><input type="radio" name="q2" value="D">    </td><td><label>(D) 7p
+</table>
+<input disabled id="qs2" type="submit" onclick="compute('2', 3);"> <div style="background-color:lightblue;text-align:center;" id="a2">See Result here</div>
+</div>
+
+<div>
+	<h3 style="color:red;">3. The intramolecular hydrogen bond is present in</h3>
+	<table>
+ <tr><td><input type="radio" name="q3" value="A">    </td><td><label>(A) Phenol 
+ <tr><td><input type="radio" name="q3" value="B">    </td><td><label>(B) o-Nitrophenol 
+ <tr><td><input type="radio" name="q3" value="C">    </td><td><label>(C) p-Nitrophenol 
+ <tr><td><input type="radio" name="q3" value="D">    </td><td><label>(D) p-Cresol
+</table>
+<input disabled id="qs3" type="submit" onclick="compute('3', 1);"> <div style="background-color:lightblue;text-align:center;" id="a3">See Result here</div>
+</div>
+
+<div>
+	<h3 style="color:red;">4. The state of hybrid orbitals of carbon in CO<sub>2</sub>, CH<sub>4</sub> and  COS<sub>3</sub><sup  style="margin-left:-8px">2-</sup>
+respectively is</h3>
+<table>
+ <tr><td><input type="radio" name="q4" value="A">    </td><td><label>(A) sp3, sp2 and sp 
+ <tr><td><input type="radio" name="q4" value="B">    </td><td><label>(B) sp3, sp and sp2 
+ <tr><td><input type="radio" name="q4" value="C">    </td><td><label>(C) sp, sp3 and sp2 
+ <tr><td><input type="radio" name="q4" value="D">    </td><td><label>(D) sp2, sp3 and sp
+</table>
+<input disabled id="qs4" type="submit" onclick="compute('4', 3);"> <div style="background-color:lightblue;text-align:center;" id="a4">See Result here</div>
+</div>
+
+<div>
+	<h3 style="color:red;">5. For an ideal gas, compressibility factor is</h3>
+	<table>
+ <tr><td><input type="radio" name="q5" value="A">    </td><td><label>(A) 0 
+ <tr><td><input type="radio" name="q5" value="B">    </td><td><label>(B) 1 
+ <tr><td><input type="radio" name="q5" value="C">    </td><td><label>(C) -1 
+ <tr><td><input type="radio" name="q5" value="D">    </td><td><label>(D) +2
+</table>
+<input disabled id="qs5" type="submit" onclick="compute('5', 2);"> <div style="background-color:lightblue;text-align:center;" id="a5">See Result here</div>
+</div>
+
+
+<div>
+	<h3 style="color:red;">6. Acidity of BF<sub>3<sub> can be explained on which of the following concepts?</h3>
+	<table>
+ <tr><td><input type="radio" name="q6" value="A">    </td><td><label>(A) Arrhenius concept 
+ <tr><td><input type="radio" name="q6" value="B">    </td><td><label>(B) Bronsted Lowry concept
+
+ <tr><td><input type="radio" name="q6" value="C">    </td><td><label>(C) Lewis concept 
+ <tr><td><input type="radio" name="q6" value="D">    </td><td><label>(D) Bronsted Lowry as well as Lewis concept
+</table>
+<input disabled id="qs6" type="submit" onclick="compute('6', 3);"> <div style="background-color:lightblue;text-align:center;" id="a6">See Result here</div>
+</div>
+
+
+<div>
+	<h3 style="color:red;">7. H<sub>2</sub>O<sub>2</sub> is</h3>
+	<table>
+ <tr><td><input type="radio" name="q7" value="A">    </td><td><label>(A) An oxidising agent 
+ <tr><td><input type="radio" name="q7" value="B">    </td><td><label>(B) A reducing agent
+
+ <tr><td><input type="radio" name="q7" value="C">    </td><td><label>(C) Both Oxidising and reducing agent 
+ <tr><td><input type="radio" name="q7" value="D">    </td><td><label>(D) Neither oxidising nor reducing agent
+</table>
+<input disabled id="qs7" type="submit" onclick="compute('7', 3);"> <div style="background-color:lightblue;text-align:center;" id="a7">See Result here</div>
+</div>
+
+
+<div>
+	<h3 style="color:red;">8. Identify the following compound which exhibits geometrical isomerism:</h3>
+	<table>
+ <tr><td><input type="radio" name="q8" value="A">    </td><td><label>(A) But-2-ene 
+ <tr><td><input type="radio" name="q8" value="B">    </td><td><label>(B) But-1-ene 
+ <tr><td><input type="radio" name="q8" value="C">    </td><td><label>(C) Butane 
+ <tr><td><input type="radio" name="q8" value="D">    </td><td><label>(D) Isobutane
+</table>
+<input disabled id="qs8" type="submit" onclick="compute('8', 1);"> <div style="background-color:lightblue;text-align:center;" id="a8">See Result here</div>
+</div>
+
+<div>
+	<h3 style="color:red;">9. During the fusion of organic compound with sodium metal, nitrogen present in the organic</h3>
+	<table>
+compound is converted into
+ <tr><td><input type="radio" name="q9" value="A">    </td><td><label>(A) NaNO<sub>2</sub> 
+ <tr><td><input type="radio" name="q9" value="B">    </td><td><label>(B) NaNH<sub>2</sub> 
+ <tr><td><input type="radio" name="q9" value="C">    </td><td><label>(C) NaCN 
+ <tr><td><input type="radio" name="q9" value="D">    </td><td><label>(D) NaNC
+</table>
+<input disabled id="qs9" type="submit" onclick="compute('9', 3);"> <div style="background-color:lightblue;text-align:center;" id="a9">See Result here</div>
+</div>
+
+
+<div>
+	<h3 style="color:red;">10. In F.C.C. the unit cell is shared equally by how many unit cells?</h3>
+	<table>
+ <tr><td><input type="radio" name="q10" value="A">    </td><td><label>(A) 10 
+ <tr><td><input type="radio" name="q10" value="B">    </td><td><label>(B) 8 
+ <tr><td><input type="radio" name="q10" value="C">    </td><td><label>(C) 6 
+ <tr><td><input type="radio" name="q10" value="D">    </td><td><label>(D) 2
+</table>
+<input disabled id="qs10" type="submit" onclick="compute('10', 3);"> <div style="background-color:lightblue;text-align:center;" id="a10">See Result here</div>
+</div>
+
+ <button disabled style="background-color:blue; color:white;font-size:22px;" id="or" onclick="or();">Click here to compute overall result</button>
+   
+<p>Result statistics</p>
+<div id="ag">
+ <table border="1px">
+ <tr>
+    <td><label>Total questions</label></td>
+    <td ><label id="s0">10</label></td>
+  </tr>
+  <tr>
+    <td><label>Total questions attended</label></td>
+    <td ><label id="s1">0</label></td>
+  </tr>
+  <tr>
+    <td><label>Total correct answer<label></td>
+    <td ><label id="s2">0</label></td>
+  </tr>
+  <tr>
+    <td><label>Overall score<label></td>
+    <td ><label id="s3">0</label></td>
+  </tr>
+</table> 
+</div>
+<script>
+var tqa=0, tcans=0,os=0;
+
+function compute(id,index){
+	var q1 = document.getElementsByName("q" + id);
+	clicked = false;
+	for (i=0; i<q1.length;i++){
+		if (q1[i].checked == true) {
+			clicked = true;
+		}
+	}
+	if (clicked == true) {	
+		tqa++;
+		if (q1[index-1].checked == true){
+				var a1 = document.getElementById("a" + id);
+				tcans++;
+				a1.innerHTML="Correct choice!";
+				a1.style.backgroundColor="green"
+			}
+			else
+			{
+				var a1 = document.getElementById("a" + id);
+				
+				a1.innerHTML="Wrong choice.";
+				a1.style.backgroundColor="red";
+			}
+		var q = document.getElementById("qs" +id);
+		q.disabled=true;
+		window.scrollBy(0,275);
+	}
+}
+function or(){
+		clearTimeout(myVar);
+		var s1 = document.getElementById("s1");
+		s1.textContent=tqa; 
+		var s2 = document.getElementById("s2");
+		s2.textContent=tcans;
+		var s3 = document.getElementById("s3");
+		var num = (tcans/6) * 100;
+		if (num == "0"){
+			s3.textContent=0;
+		}
+			else
+		{
+			var n = num.toFixed(2);
+			s3.textContent=n + "%";
+		}
+		tqa=0;
+		tcans=0; 
+		window.scrollBy(0,200);
+		document.getElementById("or").disabled = true;
+}
+var st, start,tt,myVar;
+function starttimer() {
+	myVar = setInterval(myTimer, 1000);
+	var st = new Date();
+	start = st.getTime();
+	tt=300;
+	var x = document.getElementsByTagName("input");
+	for(i = 0;i < x.length; i++)
+	{
+		x[i].disabled = false;
+	}
+	var x = document.getElementsByTagName("button");
+	for(i = 0;i < x.length; i++)
+	{
+		x[i].disabled = false;
+	}
+}
+
+
+function myTimer() {
+  var d = new Date();
+  et = d.getTime() - start;
+
+  et=et/1000;
+  document.getElementById("clock").innerHTML = "Remaining time:" + (tt - Math.trunc(et)) + " seconds." 
+}
+</script>
+</body>
+</html>
